@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: 'Red Hat Display';
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/pattern-background-desktop.svg) top/cover no-repeat, #e0e8fa;
+}
+
+.container{
+    background: #fff;
+    width: 21rem;
+    height: 34rem;
+    border-radius: 1.25rem;
+    box-shadow: 0rem 0.25rem 0.75rem rgb(0 0 0 / 10%);
+}
+
+header{
+    height: 10rem;
+}
+
+.card__head{
+    width: 100%;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    height: 10rem;
+}
+
+.content{
+    padding: 1.5rem 2.2rem 1.5rem 2.2rem;
+    text-align: center;
+}
+
+.content__title{
+    font-weight: 900;
+    color: #1f2f56;
+    font-size: 2rem;
+}
+
+.content__description{
+    line-height: 1.7rem;
+    padding-top: 0.938rem;
+    font-size: 00.938rem;
+    font-weight: 900;
+    color: #7280a7;
+}
+
+.content__plan{
+    display: flex;
+    margin-top: 0.938rem;
+    padding: 0.938rem 0rem;
+    background: #f5f7ff;
+    border-radius: 0.625rem;
+}
+
+.music__logo{
+    width: 30%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.plan{
+    width: 40%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.plan__title{
+    font-size: 1.125rem;
+    font-weight: 900;
+}
+
+.plan__price{
+    line-height: 2;
+    font-size: 0.875rem;
+    font-weight: 900;
+    color: #7280a7;
+}
+
+.plan__change{
+    width: 29%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 1.031rem;
+    color: #3829e0;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+}
+
+.plan__change:hover{
+    color: hsl(225, 100%, 63%);
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+}
+
+.content__button-proceed{
+    border: none;
+    width: 100%;
+    margin-top: 1.5625rem;
+    padding: 0.9375rem 0;
+    border-radius: 0.625rem;
+    background: #3829e0;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #f5f7ff;
+    box-shadow: 0px 14px 25px rgb(0 0 0 / 13%),0px 10px 5px rgb(0 0 0 / 13%);
+    transition: all 0.2s ease-in-out;
+}
+
+.content__button-proceed:hover{
+    background: hsl(225, 100%, 63%);
+}
+
+.content__button-cancel{
+    margin-top: 1.125rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    color: #7280a7;
+    transition: all 0.2s ease-in-out;
+    background: #FFFFFF;
+}
+
+.content__button-cancel:hover{
+    color: #000;
+}
